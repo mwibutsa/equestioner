@@ -1,0 +1,32 @@
+{
+  "name": "equestioner",
+  "version": "1.0.0",
+  "description": "crowd source questions and meet up scheduler",
+  "main": "app.js",
+  "repository": "https://github.com/mwibutsa/equestioner.git",
+  "author": "Mwibutsa Floribert",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "html-loader": "^0.5.5",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --open --hot --mode development",
+    "build": "webpack --mode production",
+    "scss": "node-sass src/styles/scss/main.scss  src/styles/css/main.css --watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
