@@ -18,3 +18,23 @@
     font-weight: bold;
   }
 }
+.header {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(69, 83, 4, 0.8),
+      rgb(98, 70, 3)
+    ),
+    url(https://images.pexels.com/photos/1141853/pexels-photo-1141853.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+  min-height: 93.9vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 53%, 50% 90%, 0 54%);
+  position: relative;
+}
+
+.about {
+  background: #333;
+
+  height: 50rem;
+  margin-top: -5vh;
+}
