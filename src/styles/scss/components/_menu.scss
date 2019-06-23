@@ -1,0 +1,29 @@
+.menu {
+  display: flex;
+  flex-flow: row;
+  height: 5rem;
+  line-height: 5rem;
+  width: fit-content;
+  padding: 0 1rem;
+  margin: 0 auto;
+  background: $color-black;
+  &__item {
+    list-style: none;
+    margin: 0 1%;
+    &--link {
+      text-decoration: none;
+      color: $color-white;
+      font-size: 1.9rem;
+      text-transform: capitalize;
+      margin: 0 2rem;
+      padding: 0 2rem;
+      transition: all .4s;
+
+      &:hover {
+          background: darken($color-black,10);
+          font-weight: 700;
+          box-shadow: 0rem 0rem .01rem $color-white;;
+      }
+    }
+  }
+}
