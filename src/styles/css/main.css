@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Jaldi|Montserrat&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.6rem;
+  color: #333;
+  background-color: #f7f7f7;
+  font-family: 'Jaldi', sans-serif; }
+
+.menu {
+  display: flex;
+  flex-flow: row;
+  height: 5rem;
+  line-height: 5rem;
+  width: fit-content;
+  padding: 0 1rem;
+  margin: 0 auto;
+  background: #333; }
+  .menu__item {
+    list-style: none;
+    margin: 0 1%; }
+    .menu__item--link {
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.9rem;
+      text-transform: capitalize;
+      margin: 0 2rem;
+      padding: 0 2rem;
+      transition: all .4s; }
+      .menu__item--link:hover {
+        background: #1a1a1a;
+        font-weight: 700;
+        box-shadow: 0rem 0rem 0.01rem #fff; }
+
+.navigation {
+  display: flex;
+  background-color: #333;
+  color: #fff; }
+  .navigation__menu {
+    flex-grow: 1;
+    background: #333; }
+  .navigation__logo {
+    heigh: 5rem;
+    line-height: 5rem;
+    margin-left: 4rem;
+    background: green;
+    font-size: 4rem;
+    padding: 0 1rem;
+    font-weight: bold; }
